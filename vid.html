@@ -256,21 +256,49 @@
         }
 
         .cta-btn {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 56px;
-            padding: 14px 20px;
-            border-radius: 15px;
-            background: #df0000;
-            color: #fff;
-            text-decoration: none;
-            font-size: 17px;
-            font-weight: 800;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(223, 0, 0, 0.25);
-            transition: transform .2s ease, background .2s ease;
+    width: 100%;
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 16px 24px;
+
+    background: #e00000;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(224, 0, 0, 0.30);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.cta-btn:hover {
+    background: #c90000;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(224, 0, 0, 0.40);
+}
+
+.cta-btn:active {
+    transform: scale(0.99);
+}
         }
 
         .cta-btn:hover {
@@ -573,12 +601,14 @@ COMO RECEBER O SEU DINHEIRO AGORA — Passo a passo (AO VIVO)
         <!-- CTA -->
         <div id="cta-container" class="cta-container">
 
-            <a
-                href="https://pay.vanqir.com/checkout/ccf76a30-1983-41fb-af33-daf3d792dee5">
-                ▶ RECEBER MEU DINHEIRO AGORA
-            </a>
+    <a
+        href="https://standerpay.com/checkout/bed4bb29-1876-4b2f-8e30-257cd984f0be"
+        class="cta-btn">
+        <span>▶</span>
+        <span>RECEBER MEU DINHEIRO AGORA</span>
+    </a>
 
-        </div>
+</div>
 
 
         <!-- INFORMAÇÃO -->
