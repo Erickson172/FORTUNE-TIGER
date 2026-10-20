@@ -1,99 +1,465 @@
+```html
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TIGRINHO ANGOLANO - A SORTE vale Ouro</title>
-  <!-- UTMify Pixel -->
-	<script src="https://connect.facebook.net/signals/config/1396263655663012?v=2.9.373&amp;r=stable&amp;domain=sou-angolano-xd.onrender.com&amp;hme=6d1ed5deee7eafc01c53d9e9fc3c4e10db50c3d28237bc4932686777e5c3969a&amp;ex_m=111%2C215%2C163%2C23%2C76%2C77%2C154%2C72%2C71%2C11%2C172%2C96%2C17%2C146%2C134%2C41%2C79%2C84%2C142%2C168%2C174%2C27%2C15%2C28%2C29%2C30%2C32%2C50%2C155%2C81%2C119%2C19%2C21%2C46%2C42%2C44%2C43%2C89%2C98%2C102%2C117%2C153%2C156%2C48%2C118%2C25%2C22%2C126%2C73%2C38%2C158%2C157%2C159%2C150%2C148%2C26%2C37%2C61%2C116%2C170%2C74%2C18%2C161%2C121%2C87%2C70%2C20%2C91%2C92%2C123%2C90%2C144%2C143%2C147%2C103%2C169%2C36%2C51%2C120%2C49%2C8%2C4%2C5%2C7%2C6%2C3%2C97%2C108%2C175%2C182%2C229%2C78%2C242%2C241%2C240%2C24%2C35%2C57%2C110%2C63%2C10%2C67%2C104%2C105%2C106%2C112%2C137%2C33%2C31%2C139%2C140%2C141%2C136%2C135%2C164%2C80%2C167%2C165%2C166%2C52%2C62%2C130%2C16%2C171%2C47%2C286%2C287%2C285%2C300%2C318%2C222%2C211%2C64%2C212%2C210%2C321%2C312%2C54%2C223%2C114%2C138%2C86%2C128%2C56%2C127%2C133%2C132%2C60%2C68%2C66%2C160%2C82%2C83%2C122%2C39%2C34%2C55%2C58%2C107%2C173%2C1%2C131%2C14%2C129%2C12%2C2%2C59%2C99%2C69%2C65%2C125%2C95%2C94%2C176%2C177%2C100%2C101%2C9%2C109%2C53%2C151%2C93%2C85%2C75%2C124%2C113%2C45%2C152%2C0%2C88%2C145%2C149%2C162%2C40%2C115%2C13%2C178%2C239%2C237%2C232%2C234%2C235%2C236%2C233%2C221%2C238%2C231%2C203%2C197%2C201%2C202%2C200%2C195%2C342%2C270%2C273%2C276%2C277%2C278%2C274%2C279%2C272%2C268%2C280%2C281%2C271%2C275%2C282%2C283%2C269%2C214%2C267%2C206%2C198%2C199%2C225%2C196%2C194%2C246%2C216%2C188%2C189%2C184%2C190%2C187%2C185%2C186%2C183%2C181%2C192%2C193%2C191%2C288%2C341%2C309%2C307%2C308%2C306%2C204%2C249%2C256%2C250%2C252%2C255%2C253%2C254%2C251%2C248%2C265%2C260%2C262%2C259%2C266%2C263%2C258%2C264%2C261%2C257%2C302%2C315)" async=""></script>
-	<script src="https://connect.facebook.net/signals/config/1365214095511708?v=2.9.373&amp;r=stable&amp;domain=sou-angolano-xd.onrender.com&amp;hme=6d1ed5deee7eafc01c53d9e9fc3c4e10db50c3d28237bc4932686777e5c3969a&amp;ex_m=111%2C215%2C163%2C23%2C76%2C77%2C154%2C72%2C71%2C11%2C172%2C96%2C17%2C146%2C134%2C41%2C79%2C84%2C142%2C168%2C174%2C27%2C15%2C28%2C29%2C30%2C32%2C50%2C155%2C81%2C119%2C19%2C21%2C46%2C42%2C44%2C43%2C89%2C98%2C102%2C117%2C153%2C156%2C48%2C118%2C25%2C22%2C126%2C73%2C38%2C158%2C157%2C159%2C150%2C148%2C26%2C37%2C61%2C116%2C170%2C74%2C18%2C161%2C121%2C87%2C70%2C20%2C91%2C92%2C123%2C90%2C144%2C143%2C147%2C103%2C169%2C36%2C51%2C120%2C49%2C8%2C4%2C5%2C7%2C6%2C3%2C97%2C108%2C175%2C182%2C229%2C78%2C242%2C241%2C240%2C24%2C35%2C57%2C110%2C63%2C10%2C67%2C104%2C105%2C106%2C112%2C137%2C33%2C31%2C139%2C140%2C141%2C136%2C135%2C164%2C80%2C167%2C165%2C166%2C52%2C62%2C130%2C16%2C171%2C47%2C286%2C287%2C285%2C300%2C318%2C222%2C211%2C64%2C212%2C210%2C321%2C312%2C54%2C223%2C114%2C138%2C86%2C128%2C56%2C127%2C133%2C132%2C60%2C68%2C66%2C160%2C82%2C83%2C122%2C39%2C34%2C55%2C58%2C107%2C173%2C1%2C131%2C14%2C129%2C12%2C2%2C59%2C99%2C69%2C65%2C125%2C95%2C94%2C176%2C177%2C100%2C101%2C9%2C109%2C53%2C151%2C93%2C85%2C75%2C124%2C113%2C45%2C152%2C0%2C88%2C145%2C149%2C162%2C40%2C115%2C13%2C178%2C239%2C237%2C232%2C234%2C235%2C236%2C233%2C221%2C238%2C231%2C203%2C197%2C201%2C202%2C200%2C195%2C342%2C270%2C273%2C276%2C277%2C278%2C274%2C279%2C272%2C268%2C280%2C281%2C271%2C275%2C282%2C283%2C269%2C214%2C267%2C206%2C198%2C199%2C225%2C196%2C194%2C246%2C216%2C188%2C189%2C184%2C190%2C187%2C185%2C186%2C183%2C181%2C192%2C193%2C191%2C288%2C341%2C309%2C307%2C308%2C306%2C204%2C249%2C256%2C250%2C252%2C255%2C253%2C254%2C251%2C248%2C265%2C260%2C262%2C259%2C266%2C263%2C258%2C264%2C261%2C257%2C302%2C315)" async=""></script>
-	<script src="https://connect.facebook.net/signals/config/1939327783333358?v=2.9.373&amp;r=stable&amp;domain=sou-angolano-xd.onrender.com&amp;hme=6d1ed5deee7eafc01c53d9e9fc3c4e10db50c3d28237bc4932686777e5c3969a&amp;ex_m=111%2C215%2C163%2C23%2C76%2C77%2C154%2C72%2C71%2C11%2C172%2C96%2C17%2C146%2C134%2C41%2C79%2C84%2C142%2C168%2C174%2C27%2C15%2C28%2C29%2C30%2C32%2C50%2C155%2C81%2C119%2C19%2C21%2C46%2C42%2C44%2C43%2C89%2C98%2C102%2C117%2C153%2C156%2C48%2C118%2C25%2C22%2C126%2C73%2C38%2C158%2C157%2C159%2C150%2C148%2C26%2C37%2C61%2C116%2C170%2C74%2C18%2C161%2C121%2C87%2C70%2C20%2C91%2C92%2C123%2C90%2C144%2C143%2C147%2C103%2C169%2C36%2C51%2C120%2C49%2C8%2C4%2C5%2C7%2C6%2C3%2C97%2C108%2C175%2C182%2C229%2C78%2C242%2C241%2C240%2C24%2C35%2C57%2C110%2C63%2C10%2C67%2C104%2C105%2C106%2C112%2C137%2C33%2C31%2C139%2C140%2C141%2C136%2C135%2C164%2C80%2C167%2C165%2C166%2C52%2C62%2C130%2C16%2C171%2C47%2C286%2C287%2C285%2C300%2C318%2C222%2C211%2C64%2C212%2C210%2C321%2C312%2C54%2C223%2C114%2C138%2C86%2C128%2C56%2C127%2C133%2C132%2C60%2C68%2C66%2C160%2C82%2C83%2C122%2C39%2C34%2C55%2C58%2C107%2C173%2C1%2C131%2C14%2C129%2C12%2C2%2C59%2C99%2C69%2C65%2C125%2C95%2C94%2C176%2C177%2C100%2C101%2C9%2C109%2C53%2C151%2C93%2C85%2C75%2C124%2C113%2C45%2C152%2C0%2C88%2C145%2C149%2C162%2C40%2C115%2C13%2C178%2C239%2C237%2C232%2C234%2C235%2C236%2C233%2C221%2C238%2C231%2C203%2C197%2C201%2C202%2C200%2C195%2C342%2C270%2C273%2C276%2C277%2C278%2C274%2C279%2C272%2C268%2C280%2C281%2C271%2C275%2C282%2C283%2C269%2C214%2C267%2C206%2C198%2C199%2C225%2C196%2C194%2C246%2C216%2C188%2C189%2C184%2C190%2C187%2C185%2C186%2C183%2C181%2C192%2C193%2C191%2C288%2C341%2C309%2C307%2C308%2C306%2C204%2C249%2C256%2C250%2C252%2C255%2C253%2C254%2C251%2C248%2C265%2C260%2C262%2C259%2C266%2C263%2C258%2C264%2C261%2C257%2C302%2C315)" async=""></script>
-<script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-<script>
-  window.pixelId = "69c2faeaebc40da953b4e47d";
-  var a = document.createElement("script");
-  a.setAttribute("async", "");
-  a.setAttribute("defer", "");
-  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-  document.head.appendChild(a);
-</script>
-<script async="" defer="" src="https://cdn.utmify.com.br/scripts/pixel/pixel.js"></script>
-	
-	<!-- UTMify UTMs Script -->
-	<script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
-	<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-:root {
-    --angola-red: #E31B23;
-    --angola-yellow: #F8D308;
-    --gold-gradient: linear-gradient(135deg, #F8D308 0%, #D4AF37 50%, #F8D308 100%);
-}
-body {
-    margin:0;
-    padding:0;
-    font-family:'Inter', sans-serif;
-    background:#000;
-    color:#fff;
-}
-.glass-card{
-    background:rgba(255,255,255,0.03);
-    backdrop-filter:blur(15px);
-    border:none; /* REMOVIDA A BORDA */
-}
-.btn-ganho{
-    background:var(--gold-gradient);
-    color:#000;
-    font-weight:900;
-}
-.botao-escondido{
-    display:none;
-}
+  <title>Saque Aprovado — Bónus Especial</title>
 
-/* VIDEO MAIOR E MAIS VISÍVEL */
-.video-vertical{
-    position: relative;
-    width: 100%;
-    max-width: 430px; /* AUMENTADO */
-    margin: 0 auto 2rem auto;
-    padding-top: 177.77%;
-}
-.video-vertical iframe{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    border:none;
-    border-radius: 2rem;
-}
-</style>
-<style>* , ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-pinch-zoom: ;}/* restante do Tailwind mantido */</style>
+  <meta name="description" content="Consulta o estado do teu saque e descobre a oferta especial disponível para ti.">
+  <meta name="theme-color" content="#100d08">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --gold: #d4a537;
+      --gold-bright: #ffdf83;
+      --background: #100d08;
+      --card: #1c170e;
+      --text: #fff8e9;
+      --muted: #c4bba8;
+      --green: #55d69e;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+
+      background:
+        radial-gradient(
+          circle at 50% 12%,
+          rgba(212, 165, 55, 0.19),
+          transparent 38%
+        ),
+        radial-gradient(
+          circle at 0% 100%,
+          rgba(212, 165, 55, 0.06),
+          transparent 35%
+        ),
+        var(--background);
+    }
+
+    main {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px 18px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 460px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .success-icon {
+      position: relative;
+      width: 94px;
+      height: 94px;
+      margin: 0 auto 24px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border: 2px solid var(--gold);
+      border-radius: 50%;
+
+      background: rgba(212, 165, 55, 0.10);
+
+      box-shadow:
+        0 0 25px rgba(212, 165, 55, 0.16),
+        inset 0 0 20px rgba(212, 165, 55, 0.08);
+
+      color: var(--gold-bright);
+      font-size: 48px;
+
+      animation: appear 0.7s ease-out;
+    }
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(25px, 7vw, 34px);
+      font-weight: 900;
+      line-height: 1.3;
+      letter-spacing: 1px;
+      color: var(--gold-bright);
+      margin-bottom: 12px;
+      text-shadow: 0 0 24px rgba(212, 165, 55, 0.12);
+    }
+
+    .subtitle {
+      max-width: 370px;
+      margin: 0 auto 26px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .card {
+      padding: 25px 21px;
+      border: 1px solid rgba(212, 165, 55, 0.48);
+      border-radius: 20px;
+
+      background: rgba(28, 23, 14, 0.94);
+
+      box-shadow:
+        0 12px 45px rgba(0, 0, 0, 0.25),
+        0 0 25px rgba(212, 165, 55, 0.04);
+
+      text-align: left;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+
+      padding: 13px;
+      margin-bottom: 23px;
+
+      border: 1px solid rgba(85, 214, 158, 0.30);
+      border-radius: 12px;
+
+      background: rgba(85, 214, 158, 0.08);
+
+      color: var(--green);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.4px;
+    }
+
+    .status-icon {
+      width: 22px;
+      height: 22px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 50%;
+      background: rgba(85, 214, 158, 0.15);
+
+      font-size: 13px;
+    }
+
+    .card h2 {
+      font-size: 18px;
+      line-height: 1.5;
+      color: var(--gold-bright);
+      margin-bottom: 14px;
+    }
+
+    .card p {
+      color: #e4dccd;
+      font-size: 14px;
+      line-height: 1.9;
+      margin-bottom: 14px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .bonus {
+      position: relative;
+      overflow: hidden;
+
+      margin-top: 24px;
+      padding: 25px 20px;
+
+      border: 2px solid rgba(212, 165, 55, 0.65);
+      border-radius: 18px;
+
+      background:
+        radial-gradient(
+          circle at 50% 0%,
+          rgba(212, 165, 55, 0.15),
+          transparent 65%
+        ),
+        linear-gradient(
+          145deg,
+          rgba(212, 165, 55, 0.08),
+          rgba(28, 23, 14, 0.98)
+        );
+
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.20);
+    }
+
+    .bonus-icon {
+      font-size: 38px;
+      margin-bottom: 13px;
+      animation: float 2.5s ease-in-out infinite;
+    }
+
+    .bonus h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 21px;
+      line-height: 1.5;
+      color: var(--gold-bright);
+      margin-bottom: 12px;
+    }
+
+    .bonus p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.8;
+      margin-bottom: 17px;
+    }
+
+    .bonus .invitation {
+      color: var(--text);
+      font-weight: 600;
+      margin-bottom: 21px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      width: 100%;
+      min-height: 56px;
+      padding: 17px 15px;
+
+      border: none;
+      border-radius: 12px;
+
+      background: linear-gradient(
+        135deg,
+        #ffe69b 0%,
+        #e9bb4c 45%,
+        #c58c20 100%
+      );
+
+      color: #241706;
+
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      text-align: center;
+
+      box-shadow:
+        0 5px 24px rgba(212, 165, 55, 0.20),
+        inset 0 1px 0 rgba(255, 255, 255, 0.30);
+
+      transition:
+        transform 0.2s ease,
+        filter 0.2s ease,
+        box-shadow 0.2s ease;
+
+      animation: pulse 2.5s ease-in-out infinite;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      transform: translateY(-2px) scale(1.01);
+      filter: brightness(1.08);
+
+      box-shadow:
+        0 8px 30px rgba(212, 165, 55, 0.30),
+        inset 0 1px 0 rgba(255, 255, 255, 0.30);
+    }
+
+    .button:active {
+      transform: scale(0.98);
+    }
+
+    .button:focus-visible {
+      outline: 2px solid var(--gold-bright);
+      outline-offset: 4px;
+    }
+
+    .footer {
+      margin: 23px auto 0;
+      max-width: 370px;
+
+      color: #857c6b;
+      font-size: 11px;
+      line-height: 1.8;
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        transform: scale(0.75);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-5px);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 5px 20px rgba(212, 165, 55, 0.17);
+      }
+
+      50% {
+        box-shadow: 0 5px 28px rgba(212, 165, 55, 0.32);
+      }
+    }
+
+    @media (max-width: 380px) {
+      main {
+        padding: 28px 14px;
+      }
+
+      .card {
+        padding: 21px 17px;
+      }
+
+      .bonus {
+        padding: 22px 16px;
+      }
+
+      .card p,
+      .bonus p {
+        font-size: 13px;
+      }
+
+      .bonus h2 {
+        font-size: 19px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <main>
+    <div class="container">
 
-<div class="min-h-screen flex items-center justify-center p-4">
-  <div class="max-w-md w-full">
-    <div class="glass-card p-8 rounded-[3rem] text-center shadow-2xl relative">
-
-      <h2 class="text-xl md:text-3xl font-black text-red-600 italic uppercase mb-6 mt-6">
-        Como fazer parte deste SORTEIO e retirar até 115.000,00 Kz 👇
-      </h2>
-
-      <!-- VIDEO MAIOR -->
-      <div class="video-vertical">
-        <iframe id="panda-ece2a33a-1996-48bd-850b-a1a7563a3f93" src="https://player-vz-abc8d156-dd5.tv.pandavideo.com.br/embed/?v=ece2a33a-1996-48bd-850b-a1a7563a3f93" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="720" height="360" fetchpriority="high"></iframe>
+      <!-- Ícone principal -->
+      <div class="success-icon" aria-hidden="true">
+        ✓
       </div>
 
-      <button id="btnDelay" onclick="window.location.href='rodadas.html'" class="w-full py-6 btn-ganho rounded-[3rem] text-xl uppercase shadow-xl hover:scale-105 transition-all">
-        JOGAR AGORA
-      </button>
+      <!-- Cabeçalho -->
+      <h1>PARABÉNS, PARCEIRO!</h1>
+
+      <p class="subtitle">
+        Consulta abaixo as informações relativas ao teu pedido de saque.
+      </p>
+
+      <!-- Informação sobre o saque -->
+      <section class="card">
+
+        <div class="status">
+          <span class="status-icon" aria-hidden="true">✓</span>
+          SAQUE APROVADO
+        </div>
+
+        <h2>
+          O teu saque foi aprovado e processado com sucesso!
+        </h2>
+
+        <p>
+          Foi verificado o pagamento da taxa aplicável, e o teu
+          pedido de saque foi aprovado para processamento.
+        </p>
+
+        <p>
+          Os valores serão enviados para a conta bancária que
+          selecionaste na área de cadastro, de acordo com o estado
+          efetivo da tua transação.
+        </p>
+
+        <p>
+          Acompanha o estado do teu saque e consulta os dados da
+          conta selecionada para obteres informações atualizadas
+          sobre a transferência.
+        </p>
+
+      </section>
+
+      <!-- Oferta de bónus -->
+      <section class="bonus">
+
+        <div class="bonus-icon" aria-hidden="true">
+          🎁
+        </div>
+
+        <h2>
+          PREPARÁMOS UM BÓNUS PARA TI!
+        </h2>
+
+        <p>
+          Agora podes conhecer a oferta especial que preparámos
+          para ti. Descobre os detalhes e consulta as condições
+          disponíveis antes de participar.
+        </p>
+
+        <p class="invitation">
+          Desfruta do bónus que preparámos para ti aqui abaixo 👇
+        </p>
+
+        <!-- Redirecionamento para rodadas.html -->
+        <a
+          href="rodadas.html"
+          class="button"
+          id="bonus-button"
+        >
+          <span aria-hidden="true">🎁</span>
+          VER BÓNUS
+        </a>
+
+      </section>
+
+      <!-- Rodapé -->
+      <p class="footer">
+        Consulta as condições da oferta e confirma as informações
+        da tua transação através dos canais oficiais.
+      </p>
 
     </div>
-  </div>
-</div>
-
+  </main>
 </body>
 </html>
+```
